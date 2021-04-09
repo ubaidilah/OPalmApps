@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:id="@+id/row_linear_layout"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:layout_marginBottom="20dp"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/no"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="No"
+        android:textColor="@color/black">
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/tgl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tgl"
+        android:textColor="@color/black">
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/wkt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Wkt"
+        android:textColor="@color/black"></TextView>
+
+    <TextView
+        android:id="@+id/kadar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Wkt"
+        android:textColor="@color/black"></TextView>
+
+    <TextView
+        android:id="@+id/kematangan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="kualifikasi"
+        android:textColor="@color/black"></TextView>
+
+</LinearLayout>
